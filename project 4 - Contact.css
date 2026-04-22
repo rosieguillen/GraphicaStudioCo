@@ -1,0 +1,305 @@
+
+/****************** HEADER AREA ***********************/
+
+body {
+	background-color: #fce9ed;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.top-row-container {
+    display: flex;            
+    justify-content: space-between; 
+    align-items: center;      
+    padding: 10px 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.main-nav {
+    width: 100%;
+    background: #f8d7da;  
+    display: flex;
+    justify-content: center; 
+    padding: 10px 8px 9px;
+    box-sizing: border-box;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li a {
+    padding: 0 15px;
+    text-decoration: none;
+    color: black;           
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.main-nav li a:hover{
+    color: #c15b75;
+}
+
+.banner {
+  margin-top: 0;
+  background-image: url('images/headerBackground.jpg');
+  background-size: auto;
+  background-position: center;
+  height: 250px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/****************** ABOVE IS HEADER AREA ***********************/
+
+.content-body-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact-flex-container {
+    display: flex;
+    flex: 1;
+    max-width: 1000px;
+    gap: 50px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.left-wiggle-design, .right-wiggle-design {
+    flex: 0 0 120px;
+    padding-top: 40px;
+}
+
+
+.direct-contact {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #c15b75;
+}
+
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    border: none;
+}
+
+.error {
+    display: none;
+    color: #d93025;
+    font-size: 11px;
+    font-weight: normal;
+    margin-top: 4px;
+    font-style: italic;
+}
+
+input:invalid {
+    border-color: #eac0c7;
+}
+
+
+/************** INFO ON WHAT THIS PAGE IS ABOUT*****************/
+
+.contact-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: flex-start;
+    gap: 60px;               
+    max-width: 1100px;       
+    margin: 0 auto;          
+    padding: 20px;
+}
+
+.section-about-us {
+    font-size: 11px
+    color: #005aab;         
+    margin-bottom: 10px;    
+}
+
+.intro {
+    font-weight: bold;
+    font-size: 15px;        
+    color: #333;            
+    margin-bottom: 20px;    
+}
+
+.main-text-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 15px;
+    width: 100%;
+}
+
+.about-us-area {
+    flex: 1;
+    padding: 20px 40px;
+}
+
+.text-area {
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #c15b75;
+}
+
+/*********** END OF INFO ON WHAT THIS PAGE IS ABOUT **************/
+
+
+form#contactYou{
+    background:#F2D5DA;
+    border-radius:5px;
+    padding:20px;
+    width:400px;
+    margin:0px auto;
+    border:2px solid #eac0c7;
+}
+
+form#contactYou fieldset{
+    border:0px;
+    margin-bottom:20px;
+}
+
+form#contactYou fieldset:last-of-type{
+    margin-bottom:0px;
+}
+
+form#contactYou legend{
+    color: black;
+    font-size:16px;
+    font-weight:bold;
+    padding-bottom:10px;
+    text-shadow:0px 1px 1px #eac0c7;
+}
+
+form#contactYou fieldset fieldset legend{
+    color:#111;
+    font-size:13px;
+    font-weight:normal;
+    padding-bottom:0px;
+}
+
+form#contactYou ol li{
+    background:#f1ced4;
+    border:2px solid #eac0c7;
+    border-radius:5px;
+    line-height:30px;
+    list-style:none;
+    padding:5px 10px;
+    margin-bottom:2px;
+}
+
+form#contactYou ol ol li{
+    background:none;
+    border:none;
+    float:left;
+}
+
+form#contactYou label{
+    float:left;
+    font-size:13px;
+    width:110px;
+}
+
+form#contactYou fieldset fieldset label{
+    background:none no-repeat left 50%;
+    line-height:20px;
+    padding:0px 0px 0px 30px;
+    width:auto;
+}
+
+
+form#contactYou .button-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    gap: 15px;                   
+    border: none;
+    padding: 20px 0;
+    margin: 0;
+}
+
+form#contactYou button {
+    background: #c15b75;
+    border:none;
+    border-radius: 20px;
+    color: #ffffff;
+    display: block;
+    letter-spacing: 1px;
+    margin: auto;
+    padding: 7px 25px;
+    text-shadow: 0 1px 1px #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/****************** FOOTER AREA ***********************/
+.site-footer {
+    text-align: center;
+    padding: 40px 0 20px 0;
+    clear: both;
+}
+
+.footer-links {
+    font-size: 11px;
+    color: #c15b75;
+    margin-bottom: 5px;
+}
+
+.footer-links a {
+    color: #c15b75;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.copyright, .address {
+    font-size: 10px;
+    color: #444;
+    margin: 3px 0;
+}
+
+.copyright .blue-text-small a {
+    text-decoration: none;
+    color: #c15b75; 
+}
+
+.copyright .blue-text-small a:hover {
+    text-decoration: underline;
+    color: #c15b75;
+}
+
+.address .blue-text-small a {
+    color: #c15b75;
+    text-decoration: none;
+}
+
+/* The hover effect */
+.address .blue-text-small a:hover {
+    text-decoration: underline;
+    color: #1c4a8a;
+}
+/****************** END OF FOOTER AREA ***********************/

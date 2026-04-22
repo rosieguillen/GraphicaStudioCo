@@ -1,0 +1,162 @@
+
+
+/****************** HEADER AREA ***********************/
+
+body {
+    background-color: #fce9ed;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.top-row-container {
+    display: flex;            
+    justify-content: space-between; 
+    align-items: center;      
+    padding: 10px 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.main-nav {
+    width: 100%;
+    background: #f8d7da;  
+    display: flex;
+    justify-content: center; 
+    padding: 10px 8px 9px;
+    box-sizing: border-box;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li a {
+    padding: 0 15px;
+    text-decoration: none;
+    color: black;           
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.main-nav li a:hover{
+    color: #c15b75;
+}
+
+.banner {
+  margin-top: 0;
+  background-image: url('images/headerBackground.jpg');
+  background-size: auto;
+  background-position: center;
+  height: 250px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/****************** WIGGLE SANDWICH AREA ***********************/
+
+.content-body-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.left-wiggle-design, 
+.right-wiggle-design {
+    flex: 0 0 180px;
+    padding: 20px;
+}
+
+.left-wiggle-design img, 
+.right-wiggle-design img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.right-wiggle-design img {
+    transform: scaleX(-1);
+}
+
+.content-body {
+    flex: 1;
+    min-width: 0;
+    max-width: 900px;
+}
+
+
+
+/****************** TEXT CONTENT AREA ***********************/
+
+.about-us-area {
+    padding: 20px 40px;
+}
+
+.text-area {
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+.text-area ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.intro {
+    font-weight: bold;
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #c15b75;
+}
+
+.header-line {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin-bottom: 20px;
+}
+
+/****************** FOOTER AREA ***********************/
+
+.site-footer {
+    text-align: center;
+    padding: 40px 0 20px 0;
+    clear: both;
+}
+
+.footer-links {
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.footer-links a, .blue-text-small a {
+    color: #c15b75;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-links a:hover, .blue-text-small a:hover {
+    text-decoration: underline;
+}
+
+.copyright, .address {
+    font-size: 10px;
+    color: #444;
+    margin: 3px 0;
+}

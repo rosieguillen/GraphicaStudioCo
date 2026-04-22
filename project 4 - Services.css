@@ -1,0 +1,226 @@
+
+/****************** HEADER AREA ***********************/
+
+body {
+	background-color: #fce9ed;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.top-row-container {
+    display: flex;            
+    justify-content: space-between; 
+    align-items: center;      
+    padding: 10px 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.main-nav {
+    width: 100%;
+    background: #f8d7da;  
+    display: flex;
+    justify-content: center; 
+    padding: 10px 8px 9px;
+    box-sizing: border-box;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li a {
+    padding: 0 15px;
+    text-decoration: none;
+    color: black;           
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.main-nav li a:hover{
+    color: #c15b75;
+}
+
+.banner {
+  margin-top: 0;
+  background-image: url('images/headerBackground.jpg');
+  background-size: auto;
+  background-position: center;
+  height: 250px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/****************** ABOVE IS HEADER AREA ***********************/
+
+
+
+/************** INFO ON WHAT THIS PAGE IS ABOUT*****************/
+.section-about-us {
+    font-size: 11px
+    color: #005aab;         
+    margin-bottom: 10px;    
+}
+
+.intro {
+    font-weight: bold;
+    font-size: 15px;        
+    color: #333;            
+    margin-bottom: 20px;    
+}
+
+.main-text-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 15px;
+    width: 100%;
+}
+
+.about-us-area {
+    flex: 1;
+    padding: 20px 40px;
+}
+
+.text-area {
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+@media (max-width: 769px){
+    .banner{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/*********** END OF INFO ON WHAT THIS PAGE IS ABOUT **************/
+
+.services-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;        
+    justify-content: center;  
+    align-items: stretch;     
+    gap: 15px;                
+    width: 100%;              
+    margin: 30px auto;
+    max-width: 1300px;        
+}
+
+.image-container, 
+.image-container2, 
+.image-container3, 
+.image-container4 {
+    flex: 2;
+    width: 310px;        
+    border: 1px solid #ccc;
+    padding: 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+.image-container img, 
+.image-container2 img, 
+.image-container3 img, 
+.image-container4 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-container h2, 
+.image-container p,
+.image-container2 h2, 
+.image-container2 p,
+.image-container3 h2, 
+.image-container3 p,
+.image-container4 h2, 
+.image-container4 p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #c15b75;
+}
+
+.caption-service{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.3;
+    margin: 0;
+    padding: 5px 2px 2px 2px;
+    text-align: left;
+}
+
+
+
+
+/****************** FOOTER AREA ***********************/
+.site-footer {
+    text-align: center;
+    padding: 40px 0 20px 0;
+    clear: both; /* Ensures the footer stays below the floated image */
+}
+
+.footer-links {
+    font-size: 11px;
+    color: #c15b75;
+    margin-bottom: 5px;
+}
+
+.footer-links a {
+    color: #c15b75;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.copyright, .address {
+    font-size: 10px;
+    color: #444;
+    margin: 3px 0;
+}
+
+.copyright .blue-text-small a {
+    text-decoration: none;
+    color: #c15b75; 
+}
+
+.copyright .blue-text-small a:hover {
+    text-decoration: underline;
+    color: #c15b75;
+}
+
+.address .blue-text-small a {
+    color: #c15b75;
+    text-decoration: none;
+}
+
+
+.address .blue-text-small a:hover {
+    text-decoration: underline;
+    color: #1c4a8a;
+}
+
+
+/****************** END OF FOOTER AREA ***********************/

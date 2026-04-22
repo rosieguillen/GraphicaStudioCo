@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Graphica Studio Co. - Contact Us</title>
+    <link rel="stylesheet" href="project 4 - Contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="formValidate.js"></script>
+</head>
+
+<body>
+    <div class="main-area">
+        <div class="top-row-container">
+            <nav class="main-nav"> 
+                <ul>
+                    <li><a href="project 4 - home.html">Home</a></li> |
+                    <li><a href="project 4 - Services.html">Services</a></li> |
+                    <li><a href="project 4 - Contact.html">Contact Us</a></li> |
+                    <li><a href="">Social Media</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="banner"></div>
+
+        <div class="content-body"> 
+            <main class="about-us-area">
+                <h2>Contact Us!</h2>
+                <hr class="header-line">
+
+                <div class="content-body-wrapper"> 
+                    
+                    <div class="left-wiggle-design">
+                        <img src="images/wiggle.png" alt="wiggle design left">
+                    </div>
+
+                    <div class="contact-flex-container">
+                        
+                        <div class="contact-text">
+                            <p class="intro">At Graphica Studio Co., we believe that every great design starts with a conversation.</p>
+                            <p class="text-area">
+                                Whether you are looking for a custom logo, a comprehensive branding kit, or high-impact marketing materials, we are here to help your brand resonate with your audience. Every project we take on is a partnership, and we invite you to reach out so we can begin crafting a visual identity as fresh and professional as your business deserves.
+                            </p>
+
+                        </div>
+
+                        <div id="contact-Form">
+                            <form id="contactYou" action="thankyou.php" method="get">
+                                <fieldset> 
+                                    <legend> Your Details </legend>
+                                    <ol>
+                                        <li>
+                                            <label for="fullname">Full Name </label>
+                                            <input id="fullname" name="fullname" type="text">
+                                            <p class="shippingError error" id="fullname_error">* Required field</p>
+                                        </li>
+                                        <li>
+                                            <label for="email">Email</label>
+                                            <input type="text" id="email"name="email">
+                                            <p class="shippingError error" id="email_error">* Required field</p>
+                                        </li>
+                                        <li>
+                                            <label for="phone">Phone number </label>
+                                            <input type="text" id="phone">
+                                            <p class="shippingError error" id="phonenumber_error">* Required field</p>
+                                        </li>
+                                    </ol>
+                                </fieldset>
+
+                                <fieldset>
+                                    <legend> Comments</legend>
+                                    <ol>
+                                        <li>
+                                            <textarea id="comments" name="comments" rows="5" cols="40"></textarea>
+                                        </li>
+                                    </ol>
+                                </fieldset>
+
+                                <fieldset class="button-row">
+                                    <button type="submit">Submit</button>
+                                    <button type="reset" id = "clear">Clear Form</button>
+                                </fieldset>
+                            </form>
+                        </div> </div> <div class="right-wiggle-design">
+                        <img src="images/wiggle.png" alt="wiggle design right">
+                    </div>
+
+                </div> </main> 
+        </div> 
+
+        <footer class="site-footer">
+            <nav class="footer-links">
+                <a href="#">Home</a> | 
+                <a href="#">Site Map</a> | 
+                <a href="#">Contact Us</a>
+            </nav>
+            <p class="copyright">
+                Copyright © 2023 <span class="blue-text-small"><a href="#">Graphica Studio Company</a></span>
+            </p>
+            <p class="address">
+                200 Portage Ave, Winnipeg, MB R3C 3X2 | 
+                <span class="blue-text-small"><a href="#">Map</a></span>
+            </p>
+        </footer>
+
+    </div> 
+</body>
